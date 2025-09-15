@@ -1,0 +1,48 @@
+# Ignore build directories
+build/
+build-*/
+out/
+bin/
+obj/
+
+# Ignore Qt Creator user-specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+
+# Ignore Visual Studio / CLion / IDE metadata
+*.idea/
+*.vs/
+*.vscode/
+
+# Ignore CMake cache files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Ignore compiler output
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+*.app
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+*~
+
+# Ignore generated JSON/CSV if not needed in repo
+*.json
+*.csv
